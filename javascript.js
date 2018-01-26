@@ -335,7 +335,7 @@ function getPage(url, id) {
 		var postString = "";
 		
 		// Make http GET request asynchronously
-		asyncRequest.open("POST", url);
+		asyncRequest.open("GET", url);
 		
 		// Set the Content-Type HTTP request header to indicate POST is being used to send data
 		asyncRequest.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
