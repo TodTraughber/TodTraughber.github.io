@@ -1,0 +1,15 @@
+@media \0screen\,screen\9 {
+    /* IE 6, 7, 8 */
+    .attention{
+		/*border:3px solid red;*/
+		outline-style: none;
+	}
+}
+
+@media screen and (min-width:0\0) and (min-resolution: +72dpi) {
+    /* IE 9+ */
+	.attention{
+		/*border:3px solid red;*/
+		outline-style: none;
+	}
+}
